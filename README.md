@@ -1,2 +1,0 @@
-# Repository-Baru
-#TB-BahasaPemogramanLanjut
