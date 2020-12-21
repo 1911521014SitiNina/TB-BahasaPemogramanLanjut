@@ -1,4 +1,4 @@
-package olahbarang;
+package BPL_TB;
 
 import java.util.Date;
 import java.util.InputMismatchException;
