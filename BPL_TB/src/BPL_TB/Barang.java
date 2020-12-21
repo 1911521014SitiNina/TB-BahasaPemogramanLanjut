@@ -30,6 +30,7 @@ public class Barang extends Koneksi implements OlahBarang {
         System.out.println("4. Hapus Data Barang");
         System.out.println("5. Lihat Data Barang");
         System.out.println("0. Kembali ke menu utama");
+	System.out.println("------------------------");
         System.out.print("Masukkan Pilihan : ");
 
         try {
@@ -63,7 +64,7 @@ public class Barang extends Koneksi implements OlahBarang {
     }
     
     //Tambah Data Barang
-	@Override
+	@Override		//turunan dari kelas olahbarang
 	public void TambahBarang() throws Exception {
     	
 		conn = DriverManager.getConnection(DB_URL, USERNAME, PASSWORD);
@@ -101,7 +102,7 @@ public class Barang extends Koneksi implements OlahBarang {
 		
 		ArrayList <DataBarang> data = new ArrayList<>();
 		
-		System.out.println(" >>>>>>>>>> CARI DATA BARANG <<<<<<<<<<");
+		System.out.println(" ---------- CARI DATA BARANG ---------");
         
 		System.out.print("Input nama barang yang akan dicari : ");
 		String cari = input.nextLine();
@@ -187,7 +188,7 @@ public class Barang extends Koneksi implements OlahBarang {
 		String sql;
 		DataBarang brg = new DataBarang();
 		
-		System.out.println(" >>>>>>>>>> UBAH DATA BARANG <<<<<<<<<<");
+		System.out.println(" --------- UBAH DATA BARANG --------");
         
         System.out.println("1. Nama");
         System.out.println("2. Stock");
