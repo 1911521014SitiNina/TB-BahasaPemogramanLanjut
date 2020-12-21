@@ -1,4 +1,4 @@
-package olahbarang;
+package BPL_TB;
 
 public class DataTransaksi {
 		public void getAll() {
