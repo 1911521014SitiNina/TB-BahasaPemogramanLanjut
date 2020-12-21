@@ -11,7 +11,7 @@ public class LaporanTransaksi extends Koneksi{
 	static Statement stmt;
 	static ResultSet rs;
 	
-	Integer id, harga_beli, harga_jual, jumlah, harga, total_beli, total_jual, untung;
+	int id, harga_beli, harga_jual, jumlah, harga, total_beli, total_jual, untung;
 	String sku, nama, noresi;
 	Date tanggal;
 	
