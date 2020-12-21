@@ -1,4 +1,4 @@
-package olahbarang;
+package BPL_TB;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
