@@ -1,4 +1,4 @@
-package olahbarang;
+package BPL_TB;
 
 public class Koneksi {
 	static final String DB_URL = "jdbc:mysql://localhost/bpltb_kel6?serverTimezone=Asia/Jakarta";
