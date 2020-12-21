@@ -1,4 +1,4 @@
-package olahbarang;
+package BPL_TB;
 
 public interface Kelola {
 	public void login() throws Exception;
