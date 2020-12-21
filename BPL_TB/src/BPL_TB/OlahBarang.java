@@ -1,4 +1,4 @@
-package olahbarang;
+package BPL_TB;
 
 public interface OlahBarang {
 	public void TambahBarang() throws Exception;
