@@ -132,7 +132,8 @@ public class LaporanTransaksi extends Koneksi{
 	        
 		}
 		catch (SQLException e){
-			 e.printStackTrace();
+			e.printStackTrace();
+			System.out.println("Terjadi Kesalahan pada Laporan Perhari
 		}
 
 	}
@@ -210,6 +211,7 @@ public class LaporanTransaksi extends Koneksi{
                     }    
 		}
 		catch (SQLException e) {
-			 e.printStackTrace();
+			e.printStackTrace();
+			System.out.println("Terjadi Kesalahan pada Laporan Perbulan");
 		}
 	}}
